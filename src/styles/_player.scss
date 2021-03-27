@@ -1,13 +1,13 @@
-.player {
+.player{
     min-height: 20vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 
-.time-control {
-    width:50%;    
+.time-control{
+    width: 50%;
     display: flex;
     input {
         width: 100%;
@@ -20,14 +20,11 @@
 
 .play-control {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    width: 30%; 
-
-    svg {
-        cursor:pointer;            
+    width: 30%;
+    svg{
+        cursor: pointer;
     }
-
 }
-
