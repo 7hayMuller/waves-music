@@ -46,6 +46,9 @@ function App() {
         audioRef={audioRef}
         setSongInfo={setSongInfo}
         songInfo={songInfo}
+        songs={songs}
+        currentSong={currentSong}
+        setCurrentSong={setCurrentSong}
       />
       <Library
         libraryStatus={libraryStatus}        
