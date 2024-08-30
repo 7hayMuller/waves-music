@@ -1,0 +1,32 @@
+.song-container {
+    min-height: 60vh;    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        border-radius: 10px;
+    }
+
+    .skeleton-loader {
+        width: 600px;  /* Largura da imagem */
+        height: 600px; /* Altura da imagem */
+        border-radius: 10px;
+        background: linear-gradient(-90deg, #e0e0e0 0%, #f0f0f0 50%, #e0e0e0 100%);
+        background-size: 400% 400%;
+        animation: skeleton-animation 1.5s ease-in-out infinite;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+@keyframes skeleton-animation {
+    0% {
+        background-position: 100% 0%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
